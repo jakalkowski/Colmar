@@ -1,0 +1,500 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v16/mnpfi9pxYH-Go5UiibESIpBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  background-color: white;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p, span {
+  font-size: 0.89rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.learn-additional h3 {
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+}
+
+.learn-additional-fontawsome {
+  color: White;
+  margin: 1rem 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+/* HEADER NAV */
+nav div {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+nav img {
+  margin-left: 1.5rem;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+ul li {
+  display: inline;
+}
+
+header .menu {
+  flex-direction: row;
+  width: 40%;
+  font-size: 0.875rem;
+}
+
+.menu-item {
+  width: auto;
+}
+
+.color {
+  background-color: Cadetblue;
+  width: 1rem;
+}
+
+/* HEADER BANNER */
+.learn {
+  background-color: Gainsboro;
+  align-items: center;
+}
+
+.banner {
+  align-items: flex-end;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 57%;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+  height: 31.25rem;
+}
+
+.banner-mobile {
+  display: none;
+}
+
+/* HEADER SIDEBAR*/
+.learn-additional {
+  flex-direction: column;
+  width: auto;
+  margin-left: 1.56rem;
+}
+
+.learn-additional-context {
+  flex-direction: column;
+  width: 60%;
+}
+
+.start-button {
+  padding: 0.5rem 0px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: DarkGrey;
+  align-items: center;
+}
+
+.start-button a {
+  color: White;
+}
+
+.start-button a:hover {
+  color: Black;
+}
+
+/* INFORMARION */
+.main-image {
+  background-image: url(../images/information-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  margin: 0px;
+}
+
+.context {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  height: 10.5rem;
+  width: 26.43rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  margin-top: 1.5rem;
+}
+
+.sidebar-information ul{
+  padding: 0px;
+  height: auto;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.sidebar-information {
+  align-self: flex-start;
+}
+
+.title {
+ font-weight: bold;
+}
+
+.description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.main-information {
+  display: block;
+  border-right: 0.05rem solid Gainsboro;
+}
+
+.main-information-body {
+  width: auto;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.text {
+  margin-top: 1.5rem;
+}
+
+.image-orientation {
+  background-image: url(../images/information-orientation.jpg);
+}
+
+.image-campus {
+  background-image: url(../images/information-campus.jpg);
+}
+
+.image-guest-lecture {
+  background-image: url(../images/information-guest-lecture.jpg);
+}
+
+.image-orientation, .image-campus, .image-guest-lecture {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 8.5rem;
+  width: 35%;
+  margin: 1rem 1rem;
+}
+
+.guest {
+  background-color: Gainsboro;
+}
+
+/* COURSES */
+.start {
+  flex-direction: column;
+  align-items: center;
+  background-color: Gainsboro;
+}
+
+.courses {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+}
+
+.course {
+  flex-direction: column;
+  width: 17.5rem;
+  height: 20.625rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  background-color: White;
+}
+
+.content-header {
+  padding: 1rem 0px;
+  font-weight: bold;
+}
+
+.courses-body {
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.courses-header {
+  margin-top: 2rem;
+}
+
+.course-content {
+  padding: 1rem 1rem;
+}
+
+.content-courses {
+  padding: 0.5rem 0px;
+}
+
+.content-courses span, .course-footer span {
+  color: DarkGrey;
+}
+
+.content-footer {
+  margin-bottom: 1.5rem;
+  padding: 0px 0.5rem;
+}
+
+.course-footer {
+  padding: 0.5rem 0.5rem;
+}
+
+.courses-mobile {
+  display: none;
+}
+
+.image-software {
+  background-image: url(../images/course-software.jpg);
+}
+
+.image-computer {
+  background-image: url(../images/course-computer-art.jpg);
+}
+
+.image-design {
+  background-image: url(../images/course-design.jpg);
+}
+
+.image-data {
+  background-image: url(../images/course-data.jpg);
+}
+
+.image-business {
+  background-image: url(../images/course-business.jpg);
+}
+
+.image-marketing {
+  background-image: url(../images/course-marketing.jpg);
+}
+
+.image-software, .image-computer, .image-design, .image-data, .image-business,
+.image-marketing {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 7.81rem;
+}
+
+/* THESIS */
+.main-thesis {
+  flex-direction: column;
+  margin: 2rem 1rem 2rem 1.5rem;
+}
+
+.thesis {
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis-header {
+  margin-top: 2rem;
+}
+
+.headline {
+  margin-top: 1.5rem;
+}
+
+.sidebar-thesis ul{
+  padding: 0px;
+  margin-top: 2rem;
+}
+
+.sidebar-thesis {
+  align-self: flex-start;
+}
+
+video {
+  width: 100%;
+}
+
+.image-thesis-fisma {
+  background-image: url(../images/thesis-fisma.jpg);
+}
+
+.image-now-and-then{
+  background-image: url(../images/thesis-now-and-then.jpg);
+}
+
+.image-thesis-fisma, .image-now-and-then {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 8.5rem;
+  width: 35%;
+  margin: 1rem 1rem;
+}
+
+.fisma {
+  background-color: Gainsboro;
+}
+
+/* FOOTER */
+footer {
+  border: 0.05rem solid Gainsboro;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  height: 6.25rem;
+  font-size: 0.81rem;
+}
+
+footer .menu {
+  padding-right: 1.5rem;
+}
+
+footer .menu ul li{
+  padding-right: 0.625rem;
+}
+
+/* MOBILE MEDIAQUERIES*/
+@media only screen and (max-width: 470px) {
+  .container {
+    display: flex;}
+  .menu, .logo, .main-information, .image-orientation, .image-campus,
+  .image-guest-lecture, .sidebar-thesis ul, .main-context, footer .menu,
+  .courses, .banner {
+    display: none;}
+  .mobile-menu ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;}
+  .mobile-menu img {
+    margin-left: auto;}
+  .learn {
+    flex-direction: column;
+    width: auto;}
+  .banner-mobile {
+    margin: 0px;
+    width: 100%;
+    height: 11.25rem;
+    background-image: url(../images/banner-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+  .learn-additional-fontawsome {
+    align-items: flex-end;}
+  .learn-additional {
+    margin: 2rem 1rem;}
+  .learn-additional-fontawsome {
+    margin-left: 1rem;}
+  .learn-additional-context {
+    width: 100%;}
+  .learn h1, h4 {
+    margin: 0px;}
+  .learn .header {
+    margin-bottom: 2rem;}
+  .start-button {
+    margin-top: 1.5rem;}
+  .information {
+    flex-direction: column;
+    margin: 1rem 1rem;}
+  .sidebar-information ul{
+    margin-bottom: 2rem;}
+  .sidebar-information, .start {
+    border: 0.05rem solid Gainsboro;}
+  .image-orientation-mobile, .image-campus-mobile, .image-guest-lecture-mobile {
+    width: 100%;
+    height: 12.5rem; 
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+  .image-orientation-mobile {
+    background-image: url(../images/information-orientation-mobile.jpg);
+  }
+  .image-campus-mobile {
+    background-image: url(../images/information-campus-mobile.jpg);
+  }
+  .image-guest-lecture-mobile {
+    background-image: url(../images/information-guest-lecture-mobile.jpg);
+  }
+  .context {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;}
+  .context-item {
+    margin-left: 1rem;}
+  .guest, .start {
+      background-color: transparent;}
+  .main-thesis {
+    margin: 0px;}
+  .thesis-body {
+    margin: 2rem 0px 1.5rem 0px;}
+  footer {
+    height: auto;}
+  .copywrite {
+    margin: 1rem 0px;}
+  .courses-header {
+    margin-top: 2rem;}
+  .courses-body {
+    width: 100%;
+    justify-content: center;
+    margin: auto;}
+  .courses-mobile {
+    display: block;
+    width: 100%;
+    margin: 1rem 1rem 2rem 1rem;}
+  .course-mobile {
+    padding: 0.5rem 0px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: Gainsboro;
+    align-items: center;
+    margin: 0.5rem 0px;
+    padding: 1rem 1rem;}
+}
